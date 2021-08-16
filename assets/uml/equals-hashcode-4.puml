@@ -1,0 +1,8 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+Another -> Obj1: hashCode()
+Obj1 --> Another: 364
+Another -> Obj2: hashCode()
+Obj2 --> Another: 364
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+Object <-- MyClass
+
+class Object {
+  equals(): boolean
+  hashCode(): int
+}
+
+class MyClass {
+  id: int
+  name: String
+}
+
+@enduml

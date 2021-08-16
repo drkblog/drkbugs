@@ -1,0 +1,16 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class MyClassNow {
+  id: int
+  name: String
+  equals(): boolean
+}
+
+class MyClassThen {
+  id: int
+  name: String
+  equals(): boolean
+  hashCode(): int
+}
+@enduml
