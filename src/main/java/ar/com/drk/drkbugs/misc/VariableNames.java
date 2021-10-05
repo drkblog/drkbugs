@@ -1,6 +1,5 @@
-package ar.com.drk.drkbugs.codility;
+package ar.com.drk.drkbugs.misc;
 
-import lombok.RequiredArgsConstructor;
 import lombok.Value;
 
 import java.util.List;
@@ -9,14 +8,14 @@ public class VariableNames {
 
     @Value
     static class User {
-        final String name;
-        final int age;
+        String name;
+        int age;
     }
 
     public int calculateAegAverage(final List<User> userList) {
         int accumulatedAge = 0;
         int userCount = 0;
-        for (User user : userList) {
+        for (final User user : userList) {
             accumulatedAge += user.getAge();
             userCount++;
         }
