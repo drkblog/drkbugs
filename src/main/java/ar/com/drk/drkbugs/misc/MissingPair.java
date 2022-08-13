@@ -4,7 +4,7 @@ public class MissingPair {
 
   public static void main(final String[] args) {
     final int[] input1 = new int[]{1, 2, 2, 1, 3, 7, 6, 7, 3, 4, 6, 4, 5, 8, 5};
-    System.out.println("solution is working: " + (findMissingPair(input1) == 8));
+    System.out.println("solution is working: " + (findMissingPairN2(input1) == 8));
   }
 
   private static int findMissingPair(final int[] input) {
